@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/httpclientandroidlib-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/apache-mime4j-0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/regexp-me.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kxml2-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpmime-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javarosa-libraries.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/joda-time-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/google-play-services.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
