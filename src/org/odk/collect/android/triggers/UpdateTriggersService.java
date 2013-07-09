@@ -167,6 +167,8 @@ public class UpdateTriggersService extends Service {
 		try{
 			URL url = new URL(Utils.EC2_URL+"getloc/?u="+user);
 			urlConnection = (HttpURLConnection) url.openConnection();
+			urlConnection.setConnectTimeout(4000);
+			urlConnection.setReadTimeout(4000);
 			String line;
 			StringBuilder builder = new StringBuilder();
 			BufferedReader reader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));

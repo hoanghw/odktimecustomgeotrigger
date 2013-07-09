@@ -240,5 +240,17 @@
                 <action android:name="updatetriggers"/>
             </intent-filter>
         </receiver>
+
+	<receiver
+                android:name=".messages.WidgetDisplay"
+                android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/display_message_provider" />
+        </receiver>
     </application>
 </manifest>

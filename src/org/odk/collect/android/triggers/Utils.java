@@ -27,7 +27,7 @@ public class Utils {
 	public static final int NO_CONNECTION = 0;
 	public static final int WAIT_FOR_WIFI = 1;
 	public static final int HAS_CONNECTION = 2;
-    public static final String EC2_URL = "http://ec2-54-226-45-247.compute-1.amazonaws.com/";
+    	public static final String EC2_URL = "http://ec2-54-226-45-247.compute-1.amazonaws.com/";
 	
 	static public void retryLater(Context context, Class<?> cls, int sec){
 		Log.i(TAG,"Retry "+ cls.toString());
